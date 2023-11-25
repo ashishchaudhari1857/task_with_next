@@ -1,0 +1,41 @@
+
+.sliderContainer {
+    position: relative;
+    min-width: 200px;
+    max-width: 330px;
+    height: 150px;
+    margin-left: 60px;
+    border-radius: 80px 10px 10px 80px;
+    background-color: red;
+    margin-top: 5rem;
+  }
+  
+  .sliderContent {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sliderImage {
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+  }
+
+  .right h3{
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 1rem
+
+  }
+  .right h2{
+   padding: 1rem;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
